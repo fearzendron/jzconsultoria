@@ -42,31 +42,6 @@
 	?>
 </head>
 
-<body <?php body_class(); ?>>
+	<body <?php body_class(); ?>>
 
-	<div id="cabecalho" class="img_braininside alturaMaximaHeader">
-		<div id="interno_cabecalho" class="alturaMaximaHeader larguraMaxima centralizarCorpo">
-        	<div id="logo" class="img_logo tamanhoLogo"></div>
-            <div id="menu" class="img_moldura_menu tamanhoMenu">
-            	<ul class="menu">
-					<script>
-						var url = window.location.href.toString();
-						document.write("<li><a href=\"http://localhost/braininside/\">HOME</a></li>");
-						document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
-			
-						document.write("<li><a href=\"http://localhost/braininside/?page_id=7\">ARTIGOS</a></li>");
-						document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
-			
-						document.write("<li><a href=\"http://localhost/braininside/?page_id=9\">PROJETOS</a></li>");
-						document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
-			
-						document.write("<li><a href=\"http://localhost/braininside/?page_id=5\">CONTATO</a></li>");
-					</script>
-				</ul>
-            </div>
-			<a href="#" alt="Siga nosso twitter!!!">
-				<div id="twitter" class="img_twitter tamanhoTwitter">
-				</div>
-			</a>
-		    <!-- O DOIS DIV's FINAIS DO CABEÇALHO DEVEm FICAR NA PAGINA QUE IMPLEMENTA O HEADER -->
-	
+		<div class="centralizarCorpo content">

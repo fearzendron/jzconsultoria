@@ -44,28 +44,19 @@
 
   <body <?php body_class(); ?>>
     
-    <div id="cabecalho" class="img_braininside alturaMaximaHeaderHome">
-    		<div id="interno_cabecalho" class="alturaMaximaHeaderHome larguraMaxima centralizarCorpo">
-        	<div id="logo" class="img_logo tamanhoLogo"></div>
-            <div id="menu" class="img_moldura_menu tamanhoMenu">
-            	<ul class="menu">
-								<script>
-									var url = window.location.href.toString();
-									document.write("<li><a href=\"http://localhost/braininside/\">HOME</a></li>");
-									document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
-						
-									document.write("<li><a href=\"http://localhost/braininside/?page_id=7\">ARTIGOS</a></li>");
-									document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
-						
-									document.write("<li><a href=\"http://localhost/braininside/?page_id=9\">PROJETOS</a></li>");
-									document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
-						
-									document.write("<li><a href=\"http://localhost/braininside/?page_id=5\">CONTATO</a></li>");
-								</script>
-							</ul>
-            </div>
-			<a href="#" alt="Siga nosso twitter!!!">
-				<div id="twitter" class="img_twitter tamanhoTwitter">
-				</div>
-			</a>
-    <!-- O DOIS DIV's FINAIS DO CABEÇALHO DEVEm FICAR NA PAGINA QUE IMPLEMENTA O HEADER -->
+	<div class="centralizarCorpo content">
+		<div class="header">
+			<div class='img_header_detalhe img_header_detalhe_size'>
+				<div class="img_header_logo_jzconsultoria img_header_logo_jzconsultoria_size"></div>
+				<div class="img_header_consultoria_treinamento img_header_consultoria_treinamento_size"></div>
+			</div>
+			<div class="img_header_menu img_header_menu_size"></div>
+			<div class="img_header_line img_header_line_size"></div>
+			<div class="menu">
+				<a class="bt_empresa" href="#"><div class="img_header_bt1 img_header_bt1_size"></div></a>
+				<a class="bt_consultoria" href="#"><div class="img_header_bt2 img_header_bt2_size"></div></a>
+				<a class="bt_treinamentos" href="#"><div class="img_header_bt3 img_header_bt3_size"></div></a>
+				<a class="bt_clientes" href="#"><div class="img_header_bt4 img_header_bt4_size"></div></a>
+				<a class="bt_contato" href="#"><div class="img_header_bt5 img_header_bt5_size"></div></a>
+			</div>
+		</div>
