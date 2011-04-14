@@ -2,9 +2,9 @@
 Theme Name: JZConsultoria
 Theme URI: http://www.braininside.com.br
 Description: Tema especifico para JZ Consultoria.
-Author: Time BrainInside
+Author: Fernando Zendron
 Version: 1.0
-Tags: padrão
+Tags: jzconsultoria fernando zendron braininside
 License:
 License URI:
 
@@ -26,9 +26,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	padding: 0;
 	vertical-align: baseline;
 }
-body { line-height: 1; background-color:#f8f8f8; }
+body { line-height: 1; background-color:#f8f8f8; font-family:Verdana; }
 h1, h2, h3, h4, h5, h6 { clear: both; font-weight: normal; }
-ol, ul { list-style: none; }
 blockquote { quotes: none; }
 blockquote:before, blockquote:after { content: ''; content: none; }
 del { text-decoration: line-through; }
@@ -67,24 +66,95 @@ textarea { resize: none; }
 	.img_header_bt4_size   { width:57px; height:12px; }
 .img_header_bt5            { background-image:url(images/contato.png); background-repeat:no-repeat; }
 	.img_header_bt5_size   { width:56px; height:12px; }
-			
+	
+.img_voltar            { background-image:url(images/voltar.png); background-repeat:no-repeat; }
+	.img_voltar_size   { width:156px; height:9px; }
+
+.img_line_final            { background-image:url(images/line_final.png); background-repeat:no-repeat; }
+	.img_line_final_size   { width:859px; height:1px; position:relative; left:25px;}			
 
 .centralizarCorpo   { margin:auto 50%; left:-470px; position:relative; } /* Centraliza a pagina no meio do navegador */
-.content { width:940px; background-color:#FFF; }
+.content { width:940px; background-color:#FFF; height:2400px;}
 
 .header {
 	background-color:#54c5d9;
 	height:145px;
 }
 
-.menu { position:absolute; left:390px; top:52px; }
-.bt_empresa      { position:absolute; width:75px; height:71px; left:0px; top:0px; padding:22px 0px 0px 10px;}
-a.bt_empresa:hover { background-image:url(images/selecionado.png); background-repeat:repeat-x; }
-.bt_consultoria  { position:absolute; width:95px; height:71px; left:100px; top:0px; padding:22px 0px 0px 10px;}
-a.bt_consultoria:hover { background-image:url(images/selecionado.png); background-repeat:repeat-x; }
-.bt_treinamentos { position:absolute; width:110px; height:71px; left:220px; top:0px; padding:22px 0px 0px 10px;}
+/* Menu do site */
+.status_selecionado     { background-image:url(images/selecionado.png); background-repeat:repeat-x;  } /* Usado quando uma opcao é acionada */
+.menu                   { position:absolute; left:390px; top:52px; }
+.bt_empresa             { position:absolute; width:75px; height:71px; left:0px; top:0px; padding:22px 0px 0px 10px;}
+a.bt_empresa:hover      { background-image:url(images/selecionado.png); background-repeat:repeat-x; }
+.bt_consultoria         { position:absolute; width:95px; height:71px; left:100px; top:0px; padding:22px 0px 0px 10px;}
+a.bt_consultoria:hover  { background-image:url(images/selecionado.png); background-repeat:repeat-x; }
+.bt_treinamentos        { position:absolute; width:110px; height:71px; left:220px; top:0px; padding:22px 0px 0px 10px;}
 a.bt_treinamentos:hover { background-image:url(images/selecionado.png); background-repeat:repeat-x; }
-.bt_clientes     { position:absolute; width:70px; height:71px; left:350px; top:0px; padding:22px 0px 0px 10px;}
-a.bt_clientes:hover { background-image:url(images/selecionado.png); background-repeat:repeat-x; }
-.bt_contato      { position:absolute; width:72px; height:71px; left:440px; top:0px; padding:22px 0px 0px 10px;}
-a.bt_contato:hover { background-image:url(images/selecionado.png); background-repeat:repeat-x; }
+.bt_clientes            { position:absolute; width:70px; height:71px; left:350px; top:0px; padding:22px 0px 0px 10px;}
+a.bt_clientes:hover     { background-image:url(images/selecionado.png); background-repeat:repeat-x; }
+.bt_contato             { position:absolute; width:72px; height:71px; left:440px; top:0px; padding:22px 0px 0px 10px;}
+a.bt_contato:hover      { background-image:url(images/selecionado.png); background-repeat:repeat-x; }
+
+
+/* Imagens abaixo do header */
+.img_people                    { background-image:url(images/bg_people.png); background-repeat:no-repeat; }
+	.img_people_size           { width:940px; height:315px; }
+.img_linha_base			       { background-image:url(images/linha-base.png); background-repeat:no-repeat; }
+	.img_linha_base_size       { width:540px; height:18px; }
+.img_black_box                 { background-image:url(images/black-box.png); background-repeat:no-repeat; }
+	.img_black_box_size        { width:766px; height:5px; position:absolute; left:174px; top:263px; }
+.img_black_box_back            { background-image:url(images/black_box_back.png); background-repeat:no-repeat; }
+	.img_black_box_back_size   { width:765px; height:208px; position:absolute; left:174px; top:263px; }
+	
+.jargao { color:#FFF; font-size:1.4em; position:absolute; top:308px; left:208px; }
+.jargao_frase { color:#FFF; font-size:0.8em; position:absolute; top:345px; left:208px; line-height:1.6em; }
+
+/* Área de descrição */
+.jz_descricao { position:absolute; width:766px; height:274px; background-color:#FFF; left:174px; top:430px; }
+.descricao { border-left:thin dotted #717171; position:relative; font-size:0.9em; color:#717171; padding:30px 40px 0px 30px; line-height:1.5em; }
+
+
+.img_line_topics          { background-image:url(images/line_topics.png); background-repeat:no-repeat; }
+	.img_line_topics_size { width:175px; height:4px; }
+
+
+.consultoria {}
+.consul_title {position:relative; top:286px; }
+.consul_title_text { position:relative; top:0px; font-size:1.4em; left:30px; color:#717171; font-weight:bold; padding-bottom:10px;}
+.line_consul {padding-top:10px;}
+.consul_conteudo {}
+.consul_conteudo_texto { 
+	position:relative; left:185px; top:240px; width:685px;
+	font-size:0.9em; color:#717171; padding:2px 40px 0px 30px; line-height:1.5em;
+	
+}
+
+.treinamento {}
+.trei_title {position:relative; top:320px; }
+.trei_title_text { position:relative; top:0px; font-size:1.4em; left:13px; color:#717171; font-weight:bold; padding-bottom:10px;}
+.line_trei {padding-top:10px;}
+.trei_conteudo {}
+.trei_conteudo_texto { 
+	position:relative; left:185px; top:270px; width:685px;
+	font-size:0.9em; color:#717171; padding:2px 40px 0px 30px; line-height:1.5em; 
+}
+
+.clientes {}
+.cli_title {position:relative; top:320px; }
+.cli_title_text { position:relative; top:0px; font-size:1.4em; left:65px; color:#717171; font-weight:bold; padding-bottom:10px;}
+.line_cli {padding-top:10px;}
+.cli_conteudo {}
+.cli_conteudo_texto { 
+	position:relative; left:185px; top:270px; width:685px;
+	font-size:0.9em; color:#717171; padding:2px 40px 0px 30px; line-height:1.5em; 
+}
+
+.contato {}
+.con_title {position:relative; top:320px; }
+.con_title_text { position:relative; top:0px; font-size:1.4em; left:70px; color:#717171; font-weight:bold; padding-bottom:10px;}
+.line_con {padding-top:10px;}
+.con_conteudo {}
+.con_conteudo_texto { 
+	position:relative; left:185px; top:270px; width:685px;
+	font-size:0.9em; color:#717171; padding:2px 40px 0px 30px; line-height:1.5em; 
+}
