@@ -49,6 +49,48 @@ textarea { resize: none; }
 	.img_header_logo_jzconsultoria_size        { width:97px; height:42px; position:relative; top:6px; left:20px;}
 .img_header_consultoria_treinamento            { background-image:url(images/consultoria_treinamento.png); background-repeat:no-repeat; }
 	.img_header_consultoria_treinamento_size   { width:159px; height:35px; position:absolute; top:9px; left:140px;}
+
+/* Empresas */	
+.img_empresas_p1         { background-image:url(images/empresas/p1.png); background-repeat:no-repeat; }
+.img_empresas_p2         { background-image:url(images/empresas/p2.png); background-repeat:no-repeat; }
+.img_empresas_p3         { background-image:url(images/empresas/p3.png); background-repeat:no-repeat; }
+.img_empresas_p4         { background-image:url(images/empresas/p4.png); background-repeat:no-repeat; }
+.img_empresas_p5         { background-image:url(images/empresas/p5.png); background-repeat:no-repeat; }
+.img_empresas_p6         { background-image:url(images/empresas/p6.png); background-repeat:no-repeat; }
+.img_empresas_p7         { background-image:url(images/empresas/p7.png); background-repeat:no-repeat; }
+.img_empresas_p9         { background-image:url(images/empresas/p9.png); background-repeat:no-repeat; }
+.img_empresas_p10        { background-image:url(images/empresas/p10.png); background-repeat:no-repeat; }
+.img_empresas_p11        { background-image:url(images/empresas/p11.png); background-repeat:no-repeat; }
+.img_empresas_p12        { background-image:url(images/empresas/p12.png); background-repeat:no-repeat; }
+.img_empresas_p13        { background-image:url(images/empresas/p13.png); background-repeat:no-repeat; }
+.img_empresas_p15        { background-image:url(images/empresas/p15.png); background-repeat:no-repeat; }
+.img_empresas_p16        { background-image:url(images/empresas/p16.png); background-repeat:no-repeat; }
+.img_empresas_p17        { background-image:url(images/empresas/p17.png); background-repeat:no-repeat; }
+.img_empresas_p18        { background-image:url(images/empresas/p18.png); background-repeat:no-repeat; }
+.img_empresas_p19        { background-image:url(images/empresas/p19.png); background-repeat:no-repeat; }
+.img_empresas_p20        { background-image:url(images/empresas/p20.png); background-repeat:no-repeat; }
+.img_empresas_p21        { background-image:url(images/empresas/p21.png); background-repeat:no-repeat; }
+.img_empresas_p22        { background-image:url(images/empresas/p22.png); background-repeat:no-repeat; }
+.img_empresas_p23        { background-image:url(images/empresas/p23.png); background-repeat:no-repeat; }
+.img_empresas_p24        { background-image:url(images/empresas/p24.png); background-repeat:no-repeat; }
+.img_empresas_p25        { background-image:url(images/empresas/p25.png); background-repeat:no-repeat; }
+.img_empresas_p26        { background-image:url(images/empresas/p26.png); background-repeat:no-repeat; }
+.img_empresas_p27        { background-image:url(images/empresas/p27.png); background-repeat:no-repeat; }
+.img_empresas_p28        { background-image:url(images/empresas/p28.png); background-repeat:no-repeat; }
+.img_empresas_p29        { background-image:url(images/empresas/p29.png); background-repeat:no-repeat; }
+.img_empresas_p30        { background-image:url(images/empresas/p30.png); background-repeat:no-repeat; }
+.img_empresas_p31        { background-image:url(images/empresas/p31.png); background-repeat:no-repeat; }
+.img_empresas_p32        { background-image:url(images/empresas/p32.png); background-repeat:no-repeat; }
+.img_empresas_p33        { background-image:url(images/empresas/p33.png); background-repeat:no-repeat; }
+.img_empresas_p34        { background-image:url(images/empresas/p34.png); background-repeat:no-repeat; }
+.img_empresas_p35        { background-image:url(images/empresas/p35.png); background-repeat:no-repeat; }
+.img_empresas_p36        { background-image:url(images/empresas/p36.png); background-repeat:no-repeat; }
+.img_empresas_p37        { background-image:url(images/empresas/p37.png); background-repeat:no-repeat; }
+.img_empresas_p38        { background-image:url(images/empresas/p38.png); background-repeat:no-repeat; }
+.img_empresas_p39        { background-image:url(images/empresas/p39.png); background-repeat:no-repeat; }
+.img_empresas_p40        { background-image:url(images/empresas/p40.png); background-repeat:no-repeat; }
+.img_empresas_p41        { background-image:url(images/empresas/p41.png); background-repeat:no-repeat; }
+	.img_empresas_size   { width:150px; height:150px; float:left;}
 	
 .img_header_menu            { background-image:url(images/menu.png); background-repeat:no-repeat; }
 	.img_header_menu_size   { width:30px; height:7px; position:absolute; top:30px; left:400px;}
@@ -74,7 +116,7 @@ textarea { resize: none; }
 	.img_line_final_size   { width:859px; height:1px; position:relative; left:25px;}			
 
 .centralizarCorpo   { margin:auto 50%; left:-470px; position:relative; } /* Centraliza a pagina no meio do navegador */
-.content { width:940px; background-color:#FFF; height:2400px;}
+.content { width:940px; background-color:#FFF; height:4200px;}
 
 .header {
 	background-color:#54c5d9;
@@ -145,8 +187,11 @@ a.bt_contato:hover      { background-image:url(images/selecionado.png); backgrou
 .line_cli {padding-top:10px;}
 .cli_conteudo {}
 .cli_conteudo_texto { 
-	position:relative; left:185px; top:270px; width:685px;
+	position:relative; left:185px; top:270px; width:685px; height:300px;
 	font-size:0.9em; color:#717171; padding:2px 40px 0px 30px; line-height:1.5em; 
+}
+.empresas {
+	position:absolute;
 }
 
 .contato {}

@@ -8,7 +8,7 @@
 </div>
 <div class="img_linha_base img_linha_base_size">
 
-<div class="jz_descricao">
+<div class="jz_descricao"><a name="descricao"></a>
 	<div class="descricao">
 		<p>Qualquer que seja o tipo de sua organização, uma indústria, uma escola, um comércio de
 	varejo, um consultório médico, etc. a competição está sempre presente. Os clientes estão
@@ -25,7 +25,8 @@
 	</div>
 </div>
 
-<div class="consultoria">
+
+<div class="consultoria"><a name="consultoria"></a>
 	<div class="consul_title">
 		<div class="consul_title_text">Consultoria</div>
 		<div class="line_consul img_line_topics img_line_topics_size"></div>
@@ -92,13 +93,13 @@
 				<li>Acompanhamento do processo de certificação;</li>
 			</ul><br /><br />
 
-			<a href=""><div class="img_voltar img_voltar_size"></div></a>
+			<a href="#menu"><div class="img_voltar img_voltar_size"></div></a>
 		</div>
 		
 	</div>
 </div>
 
-<div class="treinamento">
+<div class="treinamento"><a name="treinamento"></a>
 	<div class="trei_title">
 		<div class="trei_title_text">Treinamento</div>
 		<div class="line_trei img_line_topics img_line_topics_size"></div>
@@ -122,36 +123,88 @@
 
 			<p>Entre em contato conosco para saber sobre agendamento e detalhes dos treinamentos.</p><br /><br />
 
-			<a href=""><div class="img_voltar img_voltar_size"></div></a>
+			<a href="#menu"><div class="img_voltar img_voltar_size"></div></a>
 
 		</div>
 	</div>
 	
 </div>
 
-<div class="clientes">
+<div class="clientes"><a name="clientes"></a>
 	<div class="cli_title">
 		<div class="cli_title_text">Clientes</div>
 		<div class="line_cli img_line_topics img_line_topics_size"></div>
 	</div>
 	<div class="cli_conteudo">
 		<div class="cli_conteudo_texto">
-
-
-			<a href=""><div class="img_voltar img_voltar_size"></div></a>
+			<p>
+				Mais de 90 empresas certificadas nos últimos 10 anos.
+			</p>
+			
+			<div id="empresas">
+				<div class="img_empresas_p1 img_empresas_size"></div>
+				<div class="img_empresas_p2 img_empresas_size"></div>
+				<div class="img_empresas_p3 img_empresas_size"></div>
+				<div class="img_empresas_p4 img_empresas_size"></div>
+				<div class="img_empresas_p5 img_empresas_size"></div>
+				<div class="img_empresas_p6 img_empresas_size"></div>
+				<div class="img_empresas_p7 img_empresas_size"></div>
+				<div class="img_empresas_p9 img_empresas_size"></div>
+				<div class="img_empresas_p10 img_empresas_size"></div>
+				<div class="img_empresas_p11 img_empresas_size"></div>
+				<div class="img_empresas_p12 img_empresas_size"></div>
+				<div class="img_empresas_p13 img_empresas_size"></div>
+				<div class="img_empresas_p15 img_empresas_size"></div>
+				<div class="img_empresas_p16 img_empresas_size"></div>
+				<div class="img_empresas_p17 img_empresas_size"></div>
+				<div class="img_empresas_p18 img_empresas_size"></div>
+				<div class="img_empresas_p19 img_empresas_size"></div>
+				<div class="img_empresas_p20 img_empresas_size"></div>
+				<div class="img_empresas_p21 img_empresas_size"></div>
+				<div class="img_empresas_p22 img_empresas_size"></div>
+				<div class="img_empresas_p23 img_empresas_size"></div>
+				<div class="img_empresas_p24 img_empresas_size"></div>
+				<div class="img_empresas_p25 img_empresas_size"></div>
+				<div class="img_empresas_p26 img_empresas_size"></div>
+				<div class="img_empresas_p27 img_empresas_size"></div>
+				<div class="img_empresas_p28 img_empresas_size"></div>
+				<div class="img_empresas_p29 img_empresas_size"></div>
+				<div class="img_empresas_p30 img_empresas_size"></div>
+				<div class="img_empresas_p31 img_empresas_size"></div>
+				<div class="img_empresas_p32 img_empresas_size"></div>
+				<div class="img_empresas_p33 img_empresas_size"></div>
+				<div class="img_empresas_p34 img_empresas_size"></div>
+				<div class="img_empresas_p35 img_empresas_size"></div>
+				<div class="img_empresas_p36 img_empresas_size"></div>
+				<div class="img_empresas_p37 img_empresas_size"></div>
+				<div class="img_empresas_p38 img_empresas_size"></div>
+				<div class="img_empresas_p39 img_empresas_size"></div>
+				<div class="img_empresas_p40 img_empresas_size"></div>
+				<div class="img_empresas_p41 img_empresas_size"></div>
+			</div>			
+			<br /><br />
+			<a href="#menu"><div class="img_voltar img_voltar_size"></div></a>
 		</div>
 	</div>
 </div>
 
-<div class="contato">
+<div class="contato"><a name="contato"></a>
 	<div class="con_title">
 		<div class="con_title_text">Contato</div>
 		<div class="line_con img_line_topics img_line_topics_size"></div>
 	</div>
 	<div class="con_conteudo">
 		<div class="con_conteudo_texto">
-
-			<a href=""><div class="img_voltar img_voltar_size"></div></a>
+			<p>
+				<b>Entre em contato:</b>
+			</p><br />
+			<p>
+				<a href="mailto:jzconsultoria@jzconsultoria.com.br">EMAIL</a><br />
+				Telefone: (011) 9175-9275
+			</p>
+			<br /><br />
+			<a href="#menu"><div class="img_voltar img_voltar_size"></div></a>
+			<br /><br /><br /><br />
 		</div>
 	</div>
 </div>

@@ -41,6 +41,7 @@
 		wp_head();
 	?>
 </head>
+	<a name="menu"></a>
 
   <body <?php body_class(); ?>>
     
@@ -53,10 +54,10 @@
 			<div class="img_header_menu img_header_menu_size"></div>
 			<div class="img_header_line img_header_line_size"></div>
 			<div class="menu">
-				<a class="bt_empresa" href="#"><div class="img_header_bt1 img_header_bt1_size"></div></a>
-				<a class="bt_consultoria" href="#"><div class="img_header_bt2 img_header_bt2_size"></div></a>
-				<a class="bt_treinamentos" href="#"><div class="img_header_bt3 img_header_bt3_size"></div></a>
-				<a class="bt_clientes" href="#"><div class="img_header_bt4 img_header_bt4_size"></div></a>
-				<a class="bt_contato" href="#"><div class="img_header_bt5 img_header_bt5_size"></div></a>
+				<a class="bt_empresa" href="#empresa"><div class="img_header_bt1 img_header_bt1_size"></div></a>
+				<a class="bt_consultoria" href="#consultoria"><div class="img_header_bt2 img_header_bt2_size"></div></a>
+				<a class="bt_treinamentos" href="#treinamento"><div class="img_header_bt3 img_header_bt3_size"></div></a>
+				<a class="bt_clientes" href="#clientes"><div class="img_header_bt4 img_header_bt4_size"></div></a>
+				<a class="bt_contato" href="#contato"><div class="img_header_bt5 img_header_bt5_size"></div></a>
 			</div>
 		</div>
