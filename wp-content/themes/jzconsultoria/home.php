@@ -3,7 +3,7 @@
 <div class="img_people img_people_size">
 	<div class="img_black_box img_black_box_size"></div>
 	<div class="img_black_box_back img_black_box_back_size"></div>
-	<span class="jargao">A melhor consultoria e treinamento em Gestão da Qualidade</span>
+	<span class="jargao">Consultoria e treinamento em Gestão da Qualidade</span>
 	<span class="jargao_frase">O sistema de Gestão da Qualidade, adequadamente planejado e controlado, é a base para a<br />sustentabilidade de qualquer organização.</span>
 </div>
 <div class="img_linha_base img_linha_base_size">
