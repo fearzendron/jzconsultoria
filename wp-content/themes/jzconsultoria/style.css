@@ -116,7 +116,7 @@ textarea { resize: none; }
 	.img_line_final_size   { width:859px; height:1px; position:relative; left:25px;}			
 
 .centralizarCorpo   { margin:auto 50%; left:-470px; position:relative; } /* Centraliza a pagina no meio do navegador */
-.content { width:940px; background-color:#FFF; height:4200px;}
+.content { width:940px; background-color:#FFF; height:3000px;}
 
 .header {
 	background-color:#54c5d9;

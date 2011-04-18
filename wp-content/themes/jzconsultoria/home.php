@@ -140,54 +140,56 @@
 			<p>
 				Mais de 90 empresas certificadas nos últimos 10 anos.
 			</p>
-			
+			<br /><br /><br />
 			<div id="empresas">
-				<div class="img_empresas_p1 img_empresas_size"></div>
-				<div class="img_empresas_p2 img_empresas_size"></div>
-				<div class="img_empresas_p3 img_empresas_size"></div>
-				<div class="img_empresas_p4 img_empresas_size"></div>
-				<div class="img_empresas_p5 img_empresas_size"></div>
-				<div class="img_empresas_p6 img_empresas_size"></div>
-				<div class="img_empresas_p7 img_empresas_size"></div>
-				<div class="img_empresas_p9 img_empresas_size"></div>
-				<div class="img_empresas_p10 img_empresas_size"></div>
-				<div class="img_empresas_p11 img_empresas_size"></div>
-				<div class="img_empresas_p12 img_empresas_size"></div>
-				<div class="img_empresas_p13 img_empresas_size"></div>
-				<div class="img_empresas_p15 img_empresas_size"></div>
-				<div class="img_empresas_p16 img_empresas_size"></div>
-				<div class="img_empresas_p17 img_empresas_size"></div>
-				<div class="img_empresas_p18 img_empresas_size"></div>
-				<div class="img_empresas_p19 img_empresas_size"></div>
-				<div class="img_empresas_p20 img_empresas_size"></div>
-				<div class="img_empresas_p21 img_empresas_size"></div>
-				<div class="img_empresas_p22 img_empresas_size"></div>
-				<div class="img_empresas_p23 img_empresas_size"></div>
-				<div class="img_empresas_p24 img_empresas_size"></div>
-				<div class="img_empresas_p25 img_empresas_size"></div>
-				<div class="img_empresas_p26 img_empresas_size"></div>
-				<div class="img_empresas_p27 img_empresas_size"></div>
-				<div class="img_empresas_p28 img_empresas_size"></div>
-				<div class="img_empresas_p29 img_empresas_size"></div>
-				<div class="img_empresas_p30 img_empresas_size"></div>
-				<div class="img_empresas_p31 img_empresas_size"></div>
-				<div class="img_empresas_p32 img_empresas_size"></div>
-				<div class="img_empresas_p33 img_empresas_size"></div>
-				<div class="img_empresas_p34 img_empresas_size"></div>
-				<div class="img_empresas_p35 img_empresas_size"></div>
-				<div class="img_empresas_p36 img_empresas_size"></div>
-				<div class="img_empresas_p37 img_empresas_size"></div>
-				<div class="img_empresas_p38 img_empresas_size"></div>
-				<div class="img_empresas_p39 img_empresas_size"></div>
-				<div class="img_empresas_p40 img_empresas_size"></div>
-				<div class="img_empresas_p41 img_empresas_size"></div>
+				<ul id="mycarousel" class="jcarousel-skin-tango">
+					<li><div class="img_empresas_p1 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p2 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p3 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p4 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p5 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p6 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p7 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p9 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p10 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p11 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p12 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p13 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p15 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p16 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p17 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p18 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p19 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p20 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p21 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p22 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p23 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p24 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p25 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p26 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p27 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p28 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p29 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p30 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p31 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p32 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p33 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p34 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p35 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p36 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p37 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p38 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p39 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p40 img_empresas_size"></div></li>
+					<li><div class="img_empresas_p41 img_empresas_size"></div></li>
+				</ul>
 			</div>			
 			<br /><br />
 			<a href="#menu"><div class="img_voltar img_voltar_size"></div></a>
 		</div>
 	</div>
 </div>
-
+<br /><br />
 <div class="contato"><a name="contato"></a>
 	<div class="con_title">
 		<div class="con_title_text">Contato</div>
@@ -199,9 +201,14 @@
 				<b>Entre em contato:</b>
 			</p><br />
 			<p>
-				<a href="mailto:jzconsultoria@jzconsultoria.com.br">EMAIL</a><br />
+				<a href="mailto:jzconsultoria@jzconsultoria.com.br">jzconsultoria@jzconsultoria.com.br</a><br />
 				Telefone: (011) 9175-9275
 			</p>
+			<br />
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.jzconsultoria.com.br"
+			        scrolling="no" frameborder="0"
+			        style="border:none; width:450px; height:80px; position:relative;"><iframe>
+			<br />
 			<br /><br />
 			<a href="#menu"><div class="img_voltar img_voltar_size"></div></a>
 			<br /><br /><br /><br />

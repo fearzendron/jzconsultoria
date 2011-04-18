@@ -25,6 +25,7 @@
 	?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/skin.css" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php
 		/* We add some JavaScript to pages with the comment form
@@ -40,6 +41,24 @@
 		 */
 		wp_head();
 	?>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/javascript/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/javascript/jquery.jcarousel.min.js"></script>
+	
+	
+	
+	<script type="text/javascript">
+
+	jQuery(document).ready(function() {
+	    jQuery('#mycarousel').jcarousel({
+			scroll:3,
+			auto:5,
+			wrap:"both"
+		});
+	});
+
+	</script>
+	
+	
 </head>
 	<a name="menu"></a>
 
